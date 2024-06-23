@@ -7,6 +7,7 @@ This project demonstrates a private and secure chat server using Quantum Key Dis
 - Python 3.6+
 - `numpy` library (`pip install numpy`)
 - `cryptography` library (`pip install cryptography`)
+- `qiskit` library (`pip install qiskit`)
 
 ## Overview
 
@@ -30,7 +31,7 @@ The chat server uses the BB84 protocol from quantum cryptography to establish a 
 2. **Install Dependencies**
 
    ```bash
-   pip install numpy cryptography
+   pip install numpy cryptography qiskit
 
 3. **Run the Server**
 
